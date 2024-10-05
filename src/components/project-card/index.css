@@ -1,0 +1,143 @@
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px; 
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+   
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+.header-left {
+    text-align: left;
+}
+.header-left h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+    margin-top: 20px;
+}
+.header-left p {
+    font-size: 14px;
+    color: #ff6b6b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.navigation {
+    text-align: right;
+    margin-right: 9%;
+}
+.navigation .nav-button {
+    background-color: #00c853;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 0 5px;
+    margin-top: 2.5rem;
+    cursor: pointer;
+   
+}
+.navigation .nav-button1 {
+   background-color: white;
+   color: grey;
+   border: none;
+   border-radius: 50%;
+   padding: 10px 15px;
+   font-size: 16px;
+   border: 2px solid grey;
+   margin: 0 5px;
+   cursor: pointer;
+  
+}
+.dishes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+   background-color: white;
+ 
+   
+}
+.dish {
+   background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 346px;
+    height: 356px;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+.dish img {
+    width: 270px;
+    height: 270px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+.dish h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 15px 0 5px;
+}
+.dish p {
+    font-size: 14px;
+    color: #999;
+    margin: 0 0 15px;
+}
+.dish .price {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.dish .rating {
+    font-size: 14px;
+    color: #ffcc00;
+    margin: 0;
+   
+    text-align: right;
+}
+.dish .heart-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #00c853;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 16px;
+}
+@media (max-width: 1024px) {
+    .dish {
+        width: 45%;
+    }
+}
+@media (max-width: 768px) {
+    .dish {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navigation {
+        text-align: left;
+        margin-top: 10px;
+    }
+    .dish {
+        width: 100%;
+    }
+}

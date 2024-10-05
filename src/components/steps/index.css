@@ -1,0 +1,29 @@
+.steps-section {
+    background-color: white;
+  }
+ 
+  .step{
+    background-color: white;
+  }
+  .icon img {
+    width: 50px;  
+  }
+  .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  
+  }
+  
+  .step h5 {
+    font-size: 1.25rem;
+    align-items: flex-start;
+  }
+  
+  .step p {
+    font-size: 0.9rem;
+    align-items: flex-start;
+  }
+  

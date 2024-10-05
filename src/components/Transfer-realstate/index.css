@@ -1,0 +1,65 @@
+.real-estate-section {
+    background-color: #f9f9f9;
+  }
+  
+  .main-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .sub-heading {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .description {
+    margin-top: 20px;
+    color: #666;
+  }
+  
+  .button-group .btn {
+    margin-top: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .stat-item h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .stat-item p {
+    color: #666;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 992px) {
+    .main-heading {
+      font-size: 2rem;
+    }
+  
+    .sub-heading {
+      font-size: 1.25rem;
+    }
+  
+    .stats {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .stat-item {
+      margin-top: 20px;
+    }
+  }
+  
