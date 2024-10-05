@@ -1,0 +1,95 @@
+.card {
+    border-radius: 15px;
+}
+
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px;
+}
+
+.card-body {
+    text-align: left;
+  
+}
+.card-title {
+    font-weight: bold;
+}
+.card-text {
+    color: #6c757d;
+}
+.rating {
+    color: #ffc107;
+}
+
+
+
+.container {
+    max-width: 1200px;
+   
+   
+}
+.containerproject{
+    margin: 50px auto;
+    padding: 20px;
+    background: white ;
+    border-radius: 15px;
+   
+    max-width: calc(100% - 40px); 
+    
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 30px;
+
+    flex-wrap: wrap;
+   margin-left: 2%;
+}
+.project-left {
+    text-align: left;
+}
+.project-left h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+    margin-top: 20px;
+}
+.project-left p {
+    font-size: 14px;
+    color: #ff6b6b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.navigation {
+    text-align: right;
+    margin-right: 9%;
+}
+.navigation .nav-button {
+    background-color: #00c853;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 0 5px;
+    margin-top: 2.5rem;
+    cursor: pointer;
+   
+}
+.navigation .nav-button1 {
+   background-color: white;
+   color: grey;
+   border: none;
+   border-radius: 50%;
+   padding: 10px 15px;
+   font-size: 16px;
+   border: 2px solid grey;
+   margin: 0 5px;
+   cursor: pointer;
+  
+}

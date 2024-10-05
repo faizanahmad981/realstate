@@ -8,6 +8,9 @@ import { faChevronLeft, faChevronRight, faStar, faHeart } from '@fortawesome/fre
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import RealEstateSection from './components/Transfer-realstate';
 import Steps from './components/steps';
+import RealStateSectionss from './components/realstate';
+import Newsletter from './components/newsletter';
+
 
 
 
@@ -19,10 +22,11 @@ function App() {
   
        <CustomNavbar/> 
        <Steps/>
-     
-     <section  >
-      <div className="header">  
-          <div className="header-left">
+       <section  className='containerproject' >
+      
+      <div className='bgcolor'>
+      <div className="project">  
+          <div className="project-left">
             <p>Best Project of the Years</p>
             <h2>Our recent projects</h2>
           </div>
@@ -35,10 +39,12 @@ function App() {
               </button>
           </div>
           </div>
-          <ProjectCard/>
+          <ProjectCard />
+      </div>
     </section> 
-       <RealEstateSection/>
-       
+    <RealStateSectionss/>
+    <Newsletter/>
+      {/*   */}
     </div>
   );
 }

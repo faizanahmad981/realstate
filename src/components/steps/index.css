@@ -1,14 +1,25 @@
 .steps-section {
     background-color: white;
   }
- 
+  .containerstep{
+    margin: 50px auto;
+    padding: 20px;
+    background: white ;
+    border-radius: 15px;
+   
+    max-width: calc(100% - 40px); 
+    
+}
   .step{
     background-color: white;
+   text-align: left;
+   justify-content: flex-start;
+   align-items: flex-start;
   }
   .icon img {
     width: 50px;  
   }
-  .center-content {
+  .center-contents {
     display: flex;
     justify-content: center;
     align-items: center;

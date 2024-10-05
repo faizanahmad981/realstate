@@ -16,9 +16,9 @@ const banner = () => {
           <button className="btn btn-dark">Get a Quote</button>
         </div>
       </div>
-      <div className="image-section">
+      <div className="image-section-banner">
         <img
-          className='imgcircle'
+          className='imgcircle-banner'
           alt="Modern house with multiple levels, large windows, and surrounding greenery"
           src={bannerimg}
         />

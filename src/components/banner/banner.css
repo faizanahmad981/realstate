@@ -50,26 +50,26 @@
     border: none;
 }
 
-.image-section {
+.image-section-banner {
     max-width: 100%;
     width:25rem;
     height: 25rem;
     position: relative;
     z-index: 1;
     margin: auto;
-    margin-left: 12.75rem;
+  
     margin-top: 3%;
-
+    margin-left: 10.75rem;
 }
 
-.imgcircle {
+.imgcircle-banner {
     width: 40.5rem;
     height: 38.25rem;
     margin-top: -30px;
 
 }
 
-.image-section img {
+.image-section-banner img {
     border-radius: 15px;
     width: 34.25rem;
     height: 32rem;
@@ -81,7 +81,7 @@
         
     }
 
-    .text-section, .image-section {
+    .text-section, .image-section-banner {
         max-width: 100%;
         flex: 100%;
         text-align: center; 

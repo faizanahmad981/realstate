@@ -50,7 +50,8 @@ const CustomNavbar = () => {
           </div>
         </div>
       </nav>
-       <Banner/> 
+      <Banner/>
+     {/*   */}
     
     </>
   );
