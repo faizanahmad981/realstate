@@ -1,0 +1,70 @@
+.recent-projects-container {
+    padding: 20px 0;
+    background-color: green;
+   
+  }
+  
+  .text-section {
+    background-color: #0cedde;
+    margin-left: 1%;
+   
+  }
+  
+  .subtitles {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .titles {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .arrow-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .arrow-button {
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .arrow-button:hover {
+    background-color: #444;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 28px;
+    }
+    .arrow-buttons {
+      justify-content: flex-start;
+    }
+  }
+    {/*  <div className="container recent-projects-container">
+      <div className="row">
+        <div className="col-md-9 text-section">
+          <p className="subtitles">Best Project of the Years</p>
+          <h2 className="titles">Our recent projects</h2>
+        </div>
+        <div className="col-md-3 d-flex justify-content-end align-items-center arrow-buttons">
+          <button className="arrow-button">
+          <FontAwesomeIcon icon={faChevronLeft} />
+          </button>
+          <button className="arrow-button ms-3">
+          <FontAwesomeIcon icon={faChevronRight} />
+          </button>
+        </div>
+      </div>
+    </div> */}
