@@ -4,6 +4,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Banner from '../../components/banner';
 
+
 const CustomNavbar = () => {
   return (
     <>
@@ -50,8 +51,8 @@ const CustomNavbar = () => {
           </div>
         </div>
       </nav>
-      <Banner/>
-     {/*   */}
+      <Banner/> 
+     
     
     </>
   );

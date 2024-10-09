@@ -1,0 +1,48 @@
+.navbar {
+    background-color: #fff;
+    padding: 10px 20px;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    color: #000;
+    margin-right: 15px;
+}
+.navbar-nav .nav-link:hover {
+    color: #000;
+}
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+.form-inline {
+    display: flex;
+    align-items: center;
+}
+.form-inline .form-control {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.form-inline .btn {
+    background: none;
+    border: none;
+    color: #000;
+}
+.btn-outline-secondary {
+    border-color: #000;
+    color: #000;
+}
+.btn-outline-secondary:hover {
+    background-color: #000;
+    color: #fff;
+}
+@media (max-width: 992px) {
+    .form-inline {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form-inline .form-control {
+        margin-bottom: 10px;
+    }
+}

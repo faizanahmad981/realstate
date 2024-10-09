@@ -1,33 +1,33 @@
-.containerbanner{
+.banner {
     margin: 50px auto;
     padding: 20px;
     background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: calc(100% - 40px); 
-    
+    max-width: calc(100% - 40px);
+    overflow: hidden; /* Ensure the image doesn't overflow */
 }
 
-.content {
+.content-banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.text-section {
+.banner-text-section {
     flex: 1;
     max-width: 50%;
 }
 
-.text-section h1 {
-    font-size: 48px;
+.banner-text-section h1 {
+    font-size: 2.5rem; /* Adjusted for better responsiveness */
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.text-section p {
-    font-size: 18px;
+.banner-text-section p {
+    font-size: 1rem; /* Adjusted for better responsiveness */
     color: #666;
     margin-bottom: 30px;
 }
@@ -50,46 +50,40 @@
     border: none;
 }
 
-.image-section-banner {
-    max-width: 100%;
-    width:25rem;
-    height: 25rem;
+.image-section-banners {
+    max-width: 100%; /* Ensure it doesn’t exceed the container width */
+    height: auto; /* Keep aspect ratio */
     position: relative;
     z-index: 1;
-    margin: auto;
-  
     margin-top: 3%;
-    margin-left: 10.75rem;
 }
 
-.imgcircle-banner {
-    width: 40.5rem;
-    height: 38.25rem;
-    margin-top: -30px;
-
-}
-
-.image-section-banner img {
-    border-radius: 15px;
-    width: 34.25rem;
-    height: 32rem;
+.imgcircle-banners {
+    width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 30rem; /* Maximum width to prevent overflow */
 }
 
 @media (max-width: 768px) {
-    .container {
-        max-width: calc(100% - 20px); 
-        
+    .banner {
+        max-width: calc(100% - 20px);
     }
 
-    .text-section, .image-section-banner {
+    .banner-text-section, .image-section-banners {
         max-width: 100%;
         flex: 100%;
-        text-align: center; 
+        text-align: center;
     }
 
-    .text-section {
+    .banner-text-section {
         margin-bottom: 20px;
     }
+
+    .banner-text-section h1 {
+        font-size: 2rem; /* Smaller font size on smaller screens */
+    }
+
+    .banner-text-section p {
+        font-size: 0.9rem; /* Smaller font size on smaller screens */
+    }
 }
-
-

@@ -1,33 +1,33 @@
-.containerbanner{
+.containerbanners {
     margin: 50px auto;
     padding: 20px;
     background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: calc(100% - 40px); 
-    
+    overflow: hidden; /* Prevent overflow of child elements */
 }
 
-.content {
+.contents {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.text-section {
+.text-sections {
     flex: 1;
     max-width: 50%;
 }
 
-.text-section h1 {
-    font-size: 48px;
+.text-sections h1 {
+    font-size: 2.5rem; /* Responsive font size */
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.text-section p {
-    font-size: 18px;
+.text-sections p {
+    font-size: 1rem; /* Responsive font size */
     color: #666;
     margin-bottom: 30px;
 }
@@ -50,46 +50,46 @@
     border: none;
 }
 
-.image-section {
-    max-width: 100%;
-    width:25rem;
-    height: 25rem;
+.image-sections {
+    max-width: 100%; /* Prevents overflow */
+    height: auto; /* Maintain aspect ratio */
     position: relative;
     z-index: 1;
-    margin: auto;
-   
     margin-top: 3%;
-  
 }
 
-.imgcircle {
-    width: 40.5rem;
-    height: 38.25rem;
-    margin-top: -30px;
-
+.imgcircles {
+    width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 30rem; /* Limit maximum width */
 }
 
-.image-section img {
+.image-sections img {
     border-radius: 15px;
-    width: 34.25rem;
-    height: 32rem;
+    width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 @media (max-width: 768px) {
-    .container {
+    .containerbanners {
         max-width: calc(100% - 20px); 
-        
     }
 
-    .text-section, .image-section {
+    .text-sections, .image-sections {
         max-width: 100%;
         flex: 100%;
         text-align: center; 
     }
 
-    .text-section {
+    .text-sections {
         margin-bottom: 20px;
     }
+
+    .text-sections h1 {
+        font-size: 2rem; /* Smaller font size on smaller screens */
+    }
+
+    .text-sections p {
+        font-size: 0.9rem; /* Smaller font size on smaller screens */
+    }
 }
-
-
