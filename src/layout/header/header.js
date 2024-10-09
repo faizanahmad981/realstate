@@ -35,14 +35,7 @@ const Header = () => {
                 <FontAwesomeIcon icon={faMagnifyingGlass} />
                 </li>
             </ul>
-            {/*  <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Other services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-outline-secondary" href="#">Contact us</a>
-                </li>
-            </ul>  */}
+           
             <span className="navbar-text me-3">Other services</span>
             <a href="#" className="contact-us-btn">Contact Us</a>
         </div>

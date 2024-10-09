@@ -15,6 +15,20 @@
 .navbar-nav .nav-item:last-child {
     margin-right: 0;
 }
+.contact-us-btn {
+    border: 2px solid #000;
+    border-radius: 30px;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    background-color: white;
+}
+
+.contact-us-btn:hover {
+    background-color: #f0f0f0;
+}
+
 .form-inline {
     display: flex;
     align-items: center;
@@ -45,4 +59,19 @@
     .form-inline .form-control {
         margin-bottom: 10px;
     }
+    .contact-us-btn {
+        border: 2px solid #000;
+        border-radius: 30px;
+        padding: 5px 20px;
+        font-size: 16px;
+        color: #000;
+        text-decoration: none;
+        background-color: white;
+        width: 300px;
+    }
+    
+    .contact-us-btn:hover {
+        background-color: #f0f0f0;
+    }
+    
 }
